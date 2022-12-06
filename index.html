@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JS Quiz Assignment</title>
+	<script src="quizproject.js"></script>
+	<link rel="stylesheet" type="text/css" href="quizproject.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="manifest" href="manifest.json">
+
+    <link rel='icon' href='icons/quiz logo thing.png' type='image/x-icon'/ >
+
+    <link rel="manifest" href="manifest.json">
+  
+</head>
+<body onLoad="loadQuestion()">
+
+<section id="lightbox" onclick="closeLightBox()">
+   <div id="message">This is the message</div>
+</section>
+
+<h1>breaking bad quiz</h1>
+
+<main class="grid-container">
+  <header class="header">
+    <div id="question">The Question</div>
+  </header>
+  
+  <aside class="left">
+    <div>
+      <div class="options" id="a" onclick="markIt('a')">A.</div>
+      <div class="options" id="b" onclick="markIt('b')">B.</div>
+      <div class="options" id="c" onclick="markIt('c')">C.</div>
+      <div class="options" id="d" onclick="markIt('d')">D.</div>
+    </div>
+  </aside> 
+
+  
+  <figure class="right"> <img id="image" src="" alt=""></figure>
+  
+  <footer class="footer1">
+    <p>SPOILER WARNING</p>
+  </footer>
+  
+  <footer class="footer2">
+    <p>Score  <span id="score"></span></p>
+  </footer>
+</main>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
